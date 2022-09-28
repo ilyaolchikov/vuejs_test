@@ -1,20 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <users-table/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import UsersTable from './components/UsersTable.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    UsersTable
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
